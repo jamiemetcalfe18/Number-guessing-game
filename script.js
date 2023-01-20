@@ -9,6 +9,7 @@
 
       let guessCount = 1;
       let resetButton;
+      guessField.focus();
 
       function checkGuess() {
        const userGuess = Number(guessField.value);
